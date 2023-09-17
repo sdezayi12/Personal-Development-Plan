@@ -1,0 +1,81 @@
+/*Editing page main layout*/
+body{
+	background-color: lightpink;
+	margin: 25px 50px 50px 50px;
+	font-family: georgia, serif;
+}
+
+/*Editing main header*/
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: purple;
+	font-size: 30px;
+	border: 2px solid purple;
+}
+
+/*Editing first sub-heading*/
+h2{
+	color: purple;
+	font-size: 20px;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+/*Editing information sections*/
+pre{
+	font-family: georgia, serif;
+	padding-bottom: 20px;
+}
+
+/*Centering table*/
+table.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Editing table caption*/
+caption{
+	color: purple;
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*Customising table borders*/
+table, th, td{
+	width: 1100px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+/*Aligning table headers*/
+th{
+	text-align: left;
+	background-color: white;
+}
+
+/*Table hover function*/
+td:hover{
+	background-color: deeppink;
+	color: white;
+}
+
+/*Editing second sub-heading*/
+h3{
+	color: purple;
+	font-size: 20px;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+/*Editing footer section*/
+footer{
+	text-align: center;
+	padding: 3px;
+	background-color: deeppink;
+	color: white;
+}
